@@ -5,7 +5,7 @@ import java.util.Collections;
 // 同一任務規則，只新增逐筆保存；目前狀態維持具名變數，方便銜接第三週。
 public class MissionLog {
     public static void main(String[] args) {
-        int[] script = {1, 1, 2}; // 探索 → 探索 → 掃描。
+        int[] script = {3,1,2,0}; // 探索 → 探索 → 掃描。
         runMission(script, 20, 0);
     }
 
